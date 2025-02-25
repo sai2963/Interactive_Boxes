@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Boxes</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="box" data-box-id="1">
+        <div class="box-content">
+          <h2>Box 1</h2>
+          <div class="options hidden">
+            <div class="option-group">
+              <label>Color:</label>
+              <div class="color-options">
+                <button class="color-btn" data-color="#FF6B6B"></button>
+                <button class="color-btn" data-color="#4ECDC4"></button>
+                <button class="color-btn" data-color="#45B7D1"></button>
+              </div>
+            </div>
+            <div class="option-group">
+              <label>Size:</label>
+              <select class="size-select">
+                <option value="small">Small</option>
+                <option value="medium" selected>Medium</option>
+                <option value="large">Large</option>
+                <option value="xl">XL</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="box" data-box-id="2">
+        <div class="box-content">
+          <h2>Box 2</h2>
+          <div class="options hidden">
+            <div class="option-group">
+              <label>Color:</label>
+              <div class="color-options">
+                <button class="color-btn" data-color="#FF6B6B"></button>
+                <button class="color-btn" data-color="#4ECDC4"></button>
+                <button class="color-btn" data-color="#45B7D1"></button>
+              </div>
+            </div>
+            <div class="option-group">
+              <label>Size:</label>
+              <select class="size-select">
+                <option value="small">Small</option>
+                <option value="medium" selected>Medium</option>
+                <option value="large">Large</option>
+                <option value="xl">XL</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="box" data-box-id="3">
+        <div class="box-content">
+          <h2>Box 3</h2>
+          <div class="options hidden">
+            <div class="option-group">
+              <label>Color:</label>
+              <div class="color-options">
+                <button class="color-btn" data-color="#FF6B6B"></button>
+                <button class="color-btn" data-color="#4ECDC4"></button>
+                <button class="color-btn" data-color="#45B7D1"></button>
+              </div>
+            </div>
+            <div class="option-group">
+              <label>Size:</label>
+              <select class="size-select">
+                <option value="small">Small</option>
+                <option value="medium" selected>Medium</option>
+                <option value="large">Large</option>
+                <option value="xl">XL</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
